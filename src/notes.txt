@@ -1,0 +1,21 @@
+                                Common Methods
+
+Constructor 
+    Runs when the component first tries to mount 
+
+Render 
+    Renders the component 
+
+Common lifecycle methods:
+
+componentDidMount 
+    Runs after the first render only. Works really well for fetching data 
+
+componentDidUpdate
+    Runs after the component is update. Does not run after the first render.
+    Works for optionally fetching data, sync to localStorage, etc 
+
+componentWillUnmount
+    Runs b4 the component is set to be removed from the DOM. 
+    Good place to clean up timers or cancel network requests, close web sockets, etc
+
